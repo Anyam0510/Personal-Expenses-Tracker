@@ -6,7 +6,7 @@ import os
 from datetime import datetime
 from collections import defaultdict
 
-DATA_FOLDER = "user_data"
+DATA_FOLDER = "sample_user_expenses"
 
 if not os.path.exists(DATA_FOLDER):
     os.makedirs(DATA_FOLDER)
